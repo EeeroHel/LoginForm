@@ -84,6 +84,12 @@ fun LoginForm() {
             trailingIcon = { Icon(imageVector = Icons.Default.Person, contentDescription = "Person Icon")},
             visualTransformation = if (passwordVisible) VisualTransformation.None else PasswordVisualTransformation()
         )
+        Button(
+            onClick = {},
+            modifier = Modifier.padding(16.dp),
+            ) {
+
+        }
 
     }
 }
